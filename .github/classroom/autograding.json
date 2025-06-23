@@ -1,0 +1,40 @@
+{
+  "tests": [
+    {
+      "name": "Check if index.html exists",
+      "run": "test -f index.html",
+      "input": "",
+      "expected_output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Check if <table> tag exists",
+      "run": "grep -i '<table' index.html",
+      "input": "",
+      "expected_output": "",
+      "comparison": "contains",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Check if at least one <tr> tag exists",
+      "run": "grep -i '<tr' index.html",
+      "input": "",
+      "expected_output": "",
+      "comparison": "contains",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Check if at least one <th> tag exists",
+      "run": "grep -i '<th' index.html",
+      "input": "",
+      "expected_output": "",
+      "comparison": "contains",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
